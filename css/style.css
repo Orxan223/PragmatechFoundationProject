@@ -1,0 +1,760 @@
+body {
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.flex-full-center, #header .nav .navbar, #header .nav .navbar .navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-spacebetween-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-spacearound-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-horizontal-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-columun-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  height: 230px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80px 200px;
+      grid-template-rows: 80px 200px;
+}
+
+[class^="col-"] {
+  margin: 5px;
+}
+
+.col-1 {
+  width: 6.66667%;
+}
+
+.col-2 {
+  width: 13.33333%;
+}
+
+.col-3 {
+  width: 20%;
+}
+
+.col-4 {
+  width: 26.66667%;
+}
+
+.col-5 {
+  width: 33.33333%;
+}
+
+.col-6 {
+  width: 40%;
+}
+
+.col-7 {
+  width: 46.66667%;
+}
+
+.m-x {
+  margin: 10px;
+}
+
+.m-2x {
+  margin: 20px;
+}
+
+.m-3x {
+  margin: 30px;
+}
+
+.m-4x {
+  margin: 40px;
+}
+
+.m-5x {
+  margin: 50px;
+}
+
+.Tbm-x {
+  margin: 10px 0px;
+}
+
+.Tbm-2x {
+  margin: 20px 0px;
+}
+
+.Tbm-3x {
+  margin: 30px 0px;
+}
+
+.Tbm-4x {
+  margin: 40px 0px;
+}
+
+.Tbm-5x {
+  margin: 50px 0px;
+}
+
+.mt-x {
+  margin-top: 10px;
+}
+
+.mt-2x {
+  margin-top: 20px;
+}
+
+.mt-3x {
+  margin-top: 30px;
+}
+
+.mt-4x {
+  margin-top: 40px;
+}
+
+.mt-5x {
+  margin-top: 50px;
+}
+
+.mb-x {
+  margin-bottom: 10px;
+}
+
+.mb-2x {
+  margin-bottom: 20px;
+}
+
+.mb-3x {
+  margin-bottom: 30px;
+}
+
+.mb-4x {
+  margin-bottom: 40px;
+}
+
+.mb-5x {
+  margin-bottom: 50px;
+}
+
+.mr-x {
+  margin-right: 10px;
+}
+
+.mr-2x {
+  margin-right: 20px;
+}
+
+.mr-3x {
+  margin-right: 30px;
+}
+
+.mr-4x {
+  margin-right: 40px;
+}
+
+.mr-5x {
+  margin-right: 50px;
+}
+
+.ml-x {
+  margin-left: 10px;
+}
+
+.ml-2x {
+  margin-left: 20px;
+}
+
+.ml-3x {
+  margin-left: 30px;
+}
+
+.ml-4x {
+  margin-left: 40px;
+}
+
+.ml-5x {
+  margin-left: 50px;
+}
+
+.p-x {
+  padding: 10px;
+}
+
+.p-2x {
+  padding: 20px;
+}
+
+.p-3x {
+  padding: 30px;
+}
+
+.p-4x {
+  padding: 40px;
+}
+
+.p-5x {
+  padding: 50px;
+}
+
+.pt-x {
+  padding-top: 10px;
+}
+
+.pt-2x {
+  padding-top: 20px;
+}
+
+.pt-3x {
+  padding-top: 30px;
+}
+
+.pt-4x {
+  padding-top: 40px;
+}
+
+.pt-5x {
+  padding-top: 50px;
+}
+
+.tbd-x {
+  padding: 10px 0px;
+}
+
+.tbd-2x {
+  padding: 20px 0px;
+}
+
+.tbp-3x {
+  padding: 30px 0px;
+}
+
+.tbd-4x {
+  padding: 40px 0px;
+}
+
+.tbd-5x {
+  padding: 50px 0px;
+}
+
+.pb-x {
+  padding-bottom: 10px;
+}
+
+.pb-2x {
+  padding-bottom: 20px;
+}
+
+.pb-3x {
+  padding-bottom: 30px;
+}
+
+.pb-4x {
+  padding-bottom: 40px;
+}
+
+.pb-5x {
+  padding-bottom: 50px;
+}
+
+.pr-x {
+  padding-right: 10px;
+}
+
+.pr-2x {
+  padding-right: 20px;
+}
+
+.pr-3x {
+  padding-right: 30px;
+}
+
+.pr-4x {
+  padding-right: 40px;
+}
+
+.pr-5x {
+  padding-right: 50px;
+}
+
+.pl-x {
+  padding-left: 10px;
+}
+
+.pl-2x {
+  padding-left: 20px;
+}
+
+.pl-3x {
+  padding-left: 30px;
+}
+
+.pl-4x {
+  padding-left: 40px;
+}
+
+.pl-5x {
+  padding-left: 50px;
+}
+
+.btn {
+  border: none;
+  background: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-border-radius-x {
+  border-radius: 5px;
+}
+
+.btn-border-radius-2x {
+  border-radius: 10px;
+}
+
+.btn-border-radius-3x {
+  border-radius: 15px;
+}
+
+.btn-border-radius-4x {
+  border-radius: 20px;
+}
+
+.btn-border-radius-5x {
+  border-radius: 25px;
+}
+
+.btn-border-radius-6x {
+  border-radius: 30px;
+}
+
+.btn-border-white {
+  border: 1px solid green;
+  color: green;
+}
+
+.btn-border-white:hover {
+  background: green;
+  color: white;
+}
+
+.btn-border-blue {
+  background: green;
+  color: white;
+}
+
+#header {
+  position: relative;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background: url("../img/img_bg_1.jpg");
+  background-size: 100%;
+  width: 100%;
+  background-size: cover !important;
+  height: 890px;
+}
+
+#header .overlay {
+  height: 890px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#header .nav {
+  padding: 0px 250px 0px 34px;
+  position: relative;
+  z-index: 2;
+}
+
+#header .nav .navbar {
+  width: 900px;
+  margin: 0px 20px 0px 115px;
+}
+
+#header .nav .navbar .navbar-left {
+  width: 1400px;
+}
+
+#header .nav .navbar .navbar-left .span {
+  height: 18px;
+  color: white;
+  width: 108px;
+}
+
+#header .nav .navbar .navbar-left .inner-nav {
+  margin: 0px 70px 0px 140px;
+}
+
+#header .nav .navbar .navbar-left .logo {
+  display: inline-block;
+  margin: 0px -43px;
+}
+
+#header .nav .navbar .navbar-left .logo img {
+  width: 110px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.inner-nav ul {
+  margin: 0 px;
+  padding: 0 px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inner-nav ul li {
+  color: white;
+  margin: 0px 20px;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content h1 {
+  text-transform: capitalize;
+  font-size: 55px;
+  font-weight: 900px;
+  margin: 750px 0px 0px 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.content h2 {
+  text-transform: capitalize;
+  font-size: 55px;
+  font-weight: 900px;
+  margin: 0px;
+}
+
+.content p {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+#portfolio .portfolio-header, .portfolio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#portfolio .portfolio-header {
+  padding: 30px 0px;
+}
+
+#portfolio .portfolio-header ul {
+  display: inline-block;
+}
+
+#portfolio .portfolio-header li {
+  display: inline-block;
+  margin: 26px;
+}
+
+#portfolio .portfolio-header h2 {
+  font-size: 50px;
+  margin: -3px;
+}
+
+.portfolio-item {
+  padding: 60px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  z-index: 0px;
+  height: 230px;
+}
+
+.portfolio-item p {
+  margin: 0px;
+  padding: 0px;
+  z-index: 2;
+  color: white;
+}
+
+.portfolio-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: -60px 0px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.portfolio-item img:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  -webkit-filter: none;
+          filter: none;
+}
+
+#about {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+}
+
+#about .baba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  height: 600px;
+}
+
+#about .baba .ata1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+}
+
+#about .baba .ata1 img {
+  width: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about .baba .ata2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+}
+
+#about .baba .ata2 h2 {
+  color: black;
+}
+
+#about .baba .ata2 p {
+  color: black;
+}
+
+#about .baba .ata2 .statica {
+  width: 500px;
+  line-height: 60px;
+}
+
+#about .baba .ata2 .statica .info {
+  font-size: 18px;
+}
+
+#about .baba .ata2 .statica .info span {
+  font-size: 17px;
+  font-weight: 500px;
+}
+
+#about .baba .ata2 .statica .design {
+  background: #c4c4c4;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#about .baba .ata2 .statica .design span {
+  position: absolute;
+  background: green;
+  height: 100%;
+  text-align: right;
+  width: 75%;
+  border-radius: 5px;
+}
+
+#about .baba .ata2 .statica .html5 {
+  background: #c4c4c4;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#about .baba .ata2 .statica .html5 span {
+  position: absolute;
+  background: green;
+  height: 10;
+  text-align: right;
+  width: 95%;
+  border-radius: 5px;
+}
+
+#about .baba .ata2 .statica .css3 {
+  background: #c4c4c4;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#about .baba .ata2 .statica .css3 span {
+  position: absolute;
+  background: green;
+  height: 100%;
+  text-align: right;
+  width: 55%;
+  border-radius: 5px;
+}
+
+#about .baba .ata2 .statica .WordPress {
+  background: #c4c4c4;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#about .baba .ata2 .statica .WordPress span {
+  position: absolute;
+  background: green;
+  height: 100%;
+  text-align: right;
+  width: 81%;
+  border-radius: 5px;
+}
+
+#about .baba .ata2 .statica .boostrap {
+  background: #c4c4c4;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#about .baba .ata2 .statica .boostrap span {
+  position: absolute;
+  background: green;
+  height: 100%;
+  text-align: right;
+  width: 98%;
+  border-radius: 5px;
+}
+
+#about .baba .ata2 .btn {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

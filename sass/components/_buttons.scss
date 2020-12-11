@@ -1,0 +1,50 @@
+.btn{
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-border-radius-x {
+    border-radius: 5px;
+}
+
+.btn-border-radius-2x {
+    border-radius: 10px;
+}
+.btn-border-radius-3x {
+    border-radius: 15px;
+}
+
+.btn-border-radius-4x {
+    border-radius: 20px;
+}
+
+.btn-border-radius-5x {
+    border-radius: 25px;
+}
+
+.btn-border-radius-6x {
+    border-radius: 30px;
+}
+
+.btn-border-green{
+    border: 1px solid green;
+    color: green;
+    &:hover{
+        background: green;
+        color:white;
+        cursor: pointer;
+    }
+}
+
+.btn-border-gray{
+    border: 1px solid gray;
+    color: gray;
+    &:hover{
+        background: gray;
+        color:white;
+        cursor: pointer;
+    }
+}

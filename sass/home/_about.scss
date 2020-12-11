@@ -1,0 +1,132 @@
+#about {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+
+    .baba {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        height: 800px;
+        .ata1 {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-right: 40px;
+            img {
+                width: 600px;
+                object-fit: cover;
+            }
+        }
+        .ata2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 600px;
+            h2 {
+                color: black;
+            }
+            p {
+                color: black;
+            }
+            .statica {
+                width: 500px;
+                line-height: 60px;
+                .info{              
+                    font-size: 18px; 
+                    span{
+                        font-size: 17px; 
+                        font-weight: 500px; 
+                    }
+                }
+                .design{
+                    background: rgb(196, 196, 196);
+                    height: 10px;
+                    width: 100%;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background: green;
+                        height: 100%;
+                        text-align: right;
+                        width: 75%;
+                        border-radius: 5px;
+                    }
+                }
+                .html5{
+                    background: rgb(196, 196, 196);
+                    height: 10px ;
+                    width: 100%;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background: green;
+                        height: 10;
+                        text-align: right;
+                        width: 95%;
+                        border-radius: 5px;
+                    }   
+                }
+                .css3{
+                    background: rgb(196, 196, 196);
+                    height: 10px;
+                    width: 100%;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background: green;
+                        height: 100%;
+                        text-align: right;
+                        width: 55%;
+                        border-radius: 5px;
+                    } 
+                }
+                .WordPress{
+                    background: rgb(196, 196, 196);
+                    height: 10px;
+                    width: 100%;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background: green;
+                        height: 100%;
+                        text-align: right;
+                        width: 81%;
+                        border-radius: 5px;
+                    } 
+                }
+                .boostrap{
+                    background: rgb(196, 196, 196);
+                    height: 10px;
+                    width: 100%;
+                    position: relative;
+                    span{ 
+                        position: absolute;
+                        background: green;
+                        height: 100%;
+                        text-align: right;
+                        width: 98%;
+                        border-radius: 5px;
+                    } 
+                }
+            }
+            .btn1 {
+                text-transform: uppercase;
+                font-size: 13px;
+                box-sizing: border-box;
+                padding: 10px 20px;
+        
+            }
+            .btn2 {
+                display: flex;
+                text-transform: uppercase;
+                font-size: 15px;
+                box-sizing: border-box;
+                padding: 10px 25px;
+    
+            }
+        }
+    }
+       
+}
