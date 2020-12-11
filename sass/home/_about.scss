@@ -118,11 +118,12 @@
                 justify-content: space-between;
                 align-items: center;
                 flex-direction: row;
+                .btn {
+                    width: 100px;
+                    margin-right: 10px;
+                }
             }
-            .btn {
-                width: 100px;
-                margin-right: 10px;
-            }
+            
             // } 
             // .btn2 {
             //     display: flex;

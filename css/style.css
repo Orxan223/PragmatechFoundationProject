@@ -779,7 +779,7 @@ body {
           flex-direction: row;
 }
 
-#about .baba .ata2 .btn {
+#about .baba .ata2 #tikla .btn {
   width: 100px;
   margin-right: 10px;
 }
