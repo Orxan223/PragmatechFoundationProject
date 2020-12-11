@@ -111,21 +111,27 @@
                     } 
                 }
             }
-            .btn1 {
-                text-transform: uppercase;
-                font-size: 13px;
-                box-sizing: border-box;
-                padding: 10px 20px;
-        
-            }
-            .btn2 {
+            #tikla {
+                margin-top: 30px;
                 display: flex;
-                text-transform: uppercase;
-                font-size: 15px;
-                box-sizing: border-box;
-                padding: 10px 25px;
-    
+                width: 200px;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
             }
+            .btn {
+                width: 100px;
+                margin-right: 10px;
+            }
+            // } 
+            // .btn2 {
+            //     display: flex;
+            //     text-transform: uppercase;
+            //     font-size: 15px;
+            //     box-sizing: border-box;
+            //     padding: 10px 25px;
+    
+            // }
         }
     }
        

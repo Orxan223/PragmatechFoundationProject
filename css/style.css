@@ -400,19 +400,26 @@ body {
   border-radius: 30px;
 }
 
-.btn-border-white {
+.btn-border-green {
   border: 1px solid green;
   color: green;
 }
 
-.btn-border-white:hover {
+.btn-border-green:hover {
   background: green;
   color: white;
+  cursor: pointer;
 }
 
-.btn-border-blue {
-  background: green;
+.btn-border-gray {
+  border: 1px solid gray;
+  color: gray;
+}
+
+.btn-border-gray:hover {
+  background: gray;
   color: white;
+  cursor: pointer;
 }
 
 #header {
@@ -615,13 +622,14 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 80%;
-  height: 600px;
+  height: 800px;
 }
 
 #about .baba .ata1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -753,8 +761,26 @@ body {
   border-radius: 5px;
 }
 
+#about .baba .ata2 #tikla {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 #about .baba .ata2 .btn {
-  text-transform: uppercase;
-  font-size: 15px;
+  width: 100px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
