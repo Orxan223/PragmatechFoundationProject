@@ -7,7 +7,7 @@
         display: flex;
         justify-content: space-around;
         width: 80%;
-        height: 800px;
+        height: 980px;
         .ata1 {
             display: flex;
             width: 100%;
@@ -15,15 +15,16 @@
             align-items: center;
             margin-right: 40px;
             img {
-                width: 600px;
+                width: 590px;
                 object-fit: cover;
             }
         }
         .ata2{
+            margin-top: 75px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 600px;
+            width: 100%;
             h2 {
                 color: black;
             }
@@ -121,18 +122,14 @@
                 .btn {
                     width: 100px;
                     margin-right: 10px;
+                    font-size: 15px;
+                    box-sizing: border-box;
+                    padding: 10px 0px;
+                    margin: 20px -10px;
                 }
             }
             
-            // } 
-            // .btn2 {
-            //     display: flex;
-            //     text-transform: uppercase;
-            //     font-size: 15px;
-            //     box-sizing: border-box;
-            //     padding: 10px 25px;
-    
-            // }
+           
         }
     }
        

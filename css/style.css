@@ -445,7 +445,7 @@ body {
 }
 
 #header .nav {
-  padding: 0px 250px 0px 34px;
+  padding: 0px 250px 0px 40px;
   position: relative;
   z-index: 2;
 }
@@ -622,7 +622,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 80%;
-  height: 800px;
+  height: 980px;
 }
 
 #about .baba .ata1 {
@@ -640,12 +640,13 @@ body {
 }
 
 #about .baba .ata1 img {
-  width: 600px;
+  width: 590px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 #about .baba .ata2 {
+  margin-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,7 +657,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 600px;
+  width: 100%;
 }
 
 #about .baba .ata2 h2 {
@@ -782,5 +783,10 @@ body {
 #about .baba .ata2 #tikla .btn {
   width: 100px;
   margin-right: 10px;
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0px;
+  margin: 20px -10px;
 }
 /*# sourceMappingURL=style.css.map */

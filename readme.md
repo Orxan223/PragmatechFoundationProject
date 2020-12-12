@@ -37,3 +37,6 @@
  
  # Day 7
  - About section-un isledim ve sistem pis olduguna gore sildim yeniden sistemli sekilde yigmaga basladim
+
+ # Day 8
+ - About section-un tamamlandı
