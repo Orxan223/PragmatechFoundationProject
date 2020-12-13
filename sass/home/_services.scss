@@ -1,0 +1,12 @@
+#services{
+    border: 1px solid red;
+    padding: 150px;
+    .services-title{
+        display: flex;
+        justify-content: center;
+    }
+    .services-body{
+        height: 200px;
+        background: green;
+    }
+}

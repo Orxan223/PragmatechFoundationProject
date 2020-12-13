@@ -4,7 +4,14 @@
     align-items: center;
 }
 
+
 #portfolio{
+    .row{
+        .col-12{
+            width: 0px;
+        }
+    }
+
     
  
     .portfolio-header {
@@ -12,27 +19,35 @@
         padding: $margin*3 0px;
        
         ul{
+           
             display: inline-block;
         }
         li{
+            list-style: none;
+            text-decoration: none !important;
             display: inline-block;
             margin: 26px;
+            a{
+                list-style: none;
+                text-decoration: none;
+            }
         }
         h2{
             font-size:50px;
-            margin: -3px;
+            margin: 0px;
         }
 
-    }
+    
     }
     .portfolio-item {
         padding: 60px 0px;
         @extend %flex-columun-align;
         box-sizing: border-box;
         position: relative;
+        margin: 0px 0px;
         z-index: 0px;
         height: 230px;
-       
+        overflow: hidden;         
         p{
             margin: 0px;
             padding: 0px;
@@ -45,14 +60,20 @@
             height: 100%;
             z-index: 1px;
             object-fit: cover;
-            margin: -60px 0px;
+            margin: 0;
+            left: 0px;
+            top: 0;
             transition: all .3s ease;
             filter:brightness(50%);
             &:hover {
                 filter:brightness(50%);             
                 filter:none;
-        
-        }
+            }
+        }        
+            &:hover {
+                img{
+                    transform: scale(1.2);
+                }
+            }                            
     }
-    }
-    
+}
