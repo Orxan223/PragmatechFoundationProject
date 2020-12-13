@@ -40,3 +40,6 @@
 
  # Day 8
  - About section-un tamamlandı
+
+ # Day 9
+ - Portfolio-da seflərimi düzəltdim
