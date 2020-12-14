@@ -1,4 +1,29 @@
-let portfolio= document.queryselector('portfolio-item')
-portfolio.addEventListener('click', function(){
-    let lightColor=document.createElement('div')
-})
+const filterContainer = document.querySelector(".portfolio-filter");
+const filterBtns = filterContainer.children ;
+const totalFilterBtn=filterBtns.length;
+portfolioItems=document.querySelectorAll(".portfolio-item"),
+totalPortfolioItem=portfolioItems.length;
+
+      for(let i= 0; i < totalFilterBtn; i++) {
+        filterBtns[i].addEventListener("click",function(){
+            filterContainer.querySelector(".active").classList.remove("active");
+
+            this.classList.add("active");
+            
+            const filterValue=this.getAttribute("data-filter");
+            for(let k=0; k<totalPortfolioItem; k++){
+                if(filterValue === portfolioItems[k].getAttribute("data-category")){
+                    portfolioItems[k].classList.add("active");
+                    portfolioItems[k].classList.add("show");
+                }
+                else{
+                    portfolioItems[k].classList.add("hide");
+                    portfolioItems[k].classList.add("show");
+
+                }
+            }
+        })
+
+    }  
+           
+      
