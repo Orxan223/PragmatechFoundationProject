@@ -43,3 +43,6 @@
 
  # Day 9
  - Portfolio-da seflərimi düzəltdim
+
+ # Day 10
+ - Services hissəsi yazıldı

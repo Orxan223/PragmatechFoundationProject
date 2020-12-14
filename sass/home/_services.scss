@@ -1,12 +1,38 @@
 #services{
-    border: 1px solid red;
     padding: 150px;
     .services-title{
         display: flex;
         justify-content: center;
+        h1{
+          //  text-align: center;
+            margin:0 37 50 0;
+        }
+        
     }
     .services-body{
+        width: 230px;
         height: 200px;
-        background: green;
+        border: 1px solid gray ;
+        display: flex;
+        flex-direction: column;
+        h4{
+            text-align: center;
+            margin: 0px;
+            font-size:14px
+        }
+        span{
+            font-size: 35px;
+            margin: 25px;
+            text-align: center;
+        }
+        
+        
+        p{
+            font-size: 13px;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 5px;
+            
+        }
     }
 }
