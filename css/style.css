@@ -622,11 +622,11 @@ body {
   overflow: hidden;
 }
 
-#portfolio .portfolio-item .hide {
+#portfolio .portfolio-item .portfolio-item hide {
   display: none;
 }
 
-#portfolio .portfolio-item .show {
+#portfolio .portfolio-item .portfolio-item show {
   display: block;
   -webkit-animation: showItem 0.5s ease;
           animation: showItem 0.5s ease;
@@ -1023,5 +1023,21 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 25px;
+}
+
+#resume {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+}
+
+#resume .ata1 {
+  border: 1px solid red;
+  width: 100%;
+  height: 200px;
+}
+
+#resume .ata2 {
+  border: 1px solid green;
 }
 /*# sourceMappingURL=style.css.map */
