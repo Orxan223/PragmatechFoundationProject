@@ -1,0 +1,60 @@
+#blog {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 600px;
+    .row1{
+        h1{
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+    li{
+        display: block;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #6b6767;
+        a{
+            display: flex!important;
+            list-style: none;
+            text-decoration: none;
+            align-items: center;   
+            color: black;  
+
+            .data{
+                font-size: 12px;
+                letter-spacing: .2rem;
+                color: rgb(105, 98, 98);
+                text-transform: uppercase;
+            }
+            .read{
+                font-size: 12px;
+                letter-spacing: .2rem;
+                color: rgb(105, 98, 98);
+                text-transform: uppercase;
+                margin: 18px 0px 0 250px;
+            }
+            .read1{
+                font-size: 12px;
+                letter-spacing: .2rem;
+                color: rgb(105, 98, 98);
+                text-transform: uppercase;
+                margin: 18px 0px 0 256px;
+            }
+            .read2{
+                font-size: 12px;
+                letter-spacing: .2rem;
+                color: rgb(105, 98, 98);
+                text-transform: uppercase;
+                margin: 18px 0px 0 443px;
+            }
+            .read3{
+                font-size: 12px;
+                letter-spacing: .2rem;
+                color: rgb(105, 98, 98);
+                text-transform: uppercase;
+                margin: 18px 0px 0 235px;
+            }
+        }   
+    }
+
+}

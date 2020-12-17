@@ -46,3 +46,10 @@
 
  # Day 10
  - Services hissəsi yazıldı
+
+ # Day 11
+ - Resume section-nun html strukturunun qurulmasi
+
+ # Day 12
+ - Resume section tamamlanmasi
+ - Blog section tamamlanmasi
