@@ -9,7 +9,7 @@
     .row-3{ 
         .col-6-bal{
             .form-control1{
-                font-size: 15px;
+                font-size: 20px;
                 border: none;
                 border-bottom: 1px solid #43434d;
             }
@@ -18,12 +18,14 @@
             position: relative;
             top: -34px;
             left: 315px;
-            .form-control2{
-                font-size: 23px;
-                border: none;
-                border-bottom: 1px solid #43434d;
+            .from2-group{  
+                margin: 0px 0 0 50px; 
+                .form-control2{
+                    font-size: 20px;
+                    border: none;
+                    border-bottom: 1px solid #43434d;
+                }
             }
-           
         }
         .from3-group{
             margin: 0 0 0 -20px;

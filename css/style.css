@@ -1280,7 +1280,7 @@ body {
 }
 
 #Contact .row-3 .col-6-bal .form-control1 {
-  font-size: 15px;
+  font-size: 20px;
   border: none;
   border-bottom: 1px solid #43434d;
 }
@@ -1291,8 +1291,12 @@ body {
   left: 315px;
 }
 
-#Contact .row-3 .col-6-boy .form-control2 {
-  font-size: 23px;
+#Contact .row-3 .col-6-boy .from2-group {
+  margin: 0px 0 0 50px;
+}
+
+#Contact .row-3 .col-6-boy .from2-group .form-control2 {
+  font-size: 20px;
   border: none;
   border-bottom: 1px solid #43434d;
 }
