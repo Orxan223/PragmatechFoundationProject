@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "nunito", sans-serif;
 }
 
 .flex-full-center, #header .nav .navbar, #header .nav .navbar .navbar-left {
@@ -1266,5 +1266,77 @@ body {
   color: #696262;
   text-transform: uppercase;
   margin: 18px 0px 0 235px;
+}
+
+#Contact {
+  position: relative;
+  margin: 0px auto;
+  width: 100%;
+}
+
+#Contact .row-1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#Contact .row-3 .col-6-bal .form-control1 {
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid #43434d;
+}
+
+#Contact .row-3 .col-6-boy {
+  position: relative;
+  top: -34px;
+  left: 315px;
+}
+
+#Contact .row-3 .col-6-boy .form-control2 {
+  font-size: 23px;
+  border: none;
+  border-bottom: 1px solid #43434d;
+}
+
+#Contact .row-3 .from3-group {
+  margin: 0 0 0 -20px;
+}
+
+#Contact .row-3 .from3-group .form-control3 {
+  font-size: 50px;
+  border: none;
+  border-bottom: 1px solid #43434d;
+}
+
+#Contact .row-3 .from4-group {
+  margin: 31px 0 0 15px;
+}
+
+#Contact .row-3 .from4-group .form-control4 {
+  font-size: 36px;
+  border: none;
+  border-bottom: 1px solid #43434d;
+}
+
+#Contact .row-3 .btn {
+  margin: 30px 0 0 85px;
+}
+
+#Contact .col-4 {
+  position: relative;
+  left: 900px;
+  top: -466px;
+}
+
+#Contact .col-4 h2 {
+  margin: 25px;
+}
+
+#Contact .col-4 ul {
+  list-style: none;
+  color: #97dd97;
+}
+
+#Contact .col-4 ul li {
+  margin: 30 0 0 -40px;
 }
 /*# sourceMappingURL=style.css.map */

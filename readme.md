@@ -53,3 +53,6 @@
  # Day 12
  - Resume section tamamlanmasi
  - Blog section tamamlanmasi
+
+ # Day 13
+ - Contact section tamamlandi
