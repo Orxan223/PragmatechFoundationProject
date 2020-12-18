@@ -1,20 +1,22 @@
-const filterContainer = document.querySelector('.portfolio-filter');
+/*const filterContainer = document.querySelector('.portfolio-filter');
 const filterBtn = filterContainer.children;
 const totalFilterBtn = filterBtn.length;
 const portfolioItems = document.querySelectorAll(".portfolio-item")
 const totalPortfolioItems = portfolioItems.length;
 
 for (let i = 0; i < totalFilterBtn; i++) {
-    filterBtn[i].addEventListener("click",function () {
+    filterBtn[i].addEventListener("click", function () {
         filterContainer.querySelector(".active").classList.remove('active');
         this.classList.add("active");
 
         const filterValue = this.getAttribute("data-filter");
-        for(let k=0 ; k<totalPortfolioItems; k++){
-            if(filterValue ===  portfolioItems[k].getAttribute("data-category")){
+        for (let k = 0; k < totalPortfolioItems; k++) {
+            if (filterValue === portfolioItems[k].getAttribute("data-category")) {
+                portfolioItems[k].classList.remove('hide');
                 portfolioItems[k].classList.add('show');
             }
-            else{
+            else {
+                portfolioItems[k].classList.remove('show');
                 portfolioItems[k].classList.add('hide');
             }
         }

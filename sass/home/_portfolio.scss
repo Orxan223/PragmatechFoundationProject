@@ -44,24 +44,24 @@
         z-index: 1px;
         height: 230px;
         overflow: hidden;
-        .portfolio-item hide{
-          display: none;
-        }
-        .portfolio-item show{
-            display: block;
-            animation: showItem 0.5s ease;
-        }
-       // @keyframes showItem {
-            //0%{
-              //  transform: scale(0.8);
-              //  opacity: 0;
-            //}
-            //100%{
-            //transform: scale(1);
-           // opacity: 1;
-         //   }
+    //    .portfolio-item hide{
+     //     display: none;
+    //    }
+     //   .portfolio-item show{
+      //      display: block;
+     //       animation: showItem 0.5s ease;
+    //    }
+    //    @keyframes showItem {
+    //        0%{
+     //           transform: scale(0.8);
+     //           opacity: 0;
+     //       }
+     //       100%{
+      //          transform: scale(1);
+     //          opacity: 1;
+       //     }
             
-       // }         
+        // }         
         
         p1{
             margin: 0px;

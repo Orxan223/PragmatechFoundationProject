@@ -622,16 +622,6 @@ body {
   overflow: hidden;
 }
 
-#portfolio .portfolio-item .portfolio-item hide {
-  display: none;
-}
-
-#portfolio .portfolio-item .portfolio-item show {
-  display: block;
-  -webkit-animation: showItem 0.5s ease;
-          animation: showItem 0.5s ease;
-}
-
 #portfolio .portfolio-item p1 {
   margin: 0px;
   padding: 30px;
@@ -1279,6 +1269,10 @@ body {
   margin-bottom: 80px;
 }
 
+#Contact .row-2 .col-8 {
+  height: 550px;
+}
+
 #Contact .row-3 .col-6-bal .form-control1 {
   font-size: 20px;
   border: none;
@@ -1342,5 +1336,101 @@ body {
 
 #Contact .col-4 ul li {
   margin: 30 0 0 -40px;
+}
+
+#footer {
+  background: #efefef;
+  font-size: 14px;
+  color: #888;
+  padding: 70px 0;
+}
+
+#footer .about-orbit h3 {
+  margin-bottom: 35px;
+}
+
+#footer .connect ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: -43;
+  cursor: pointer;
+}
+
+#footer .connect ul a {
+  color: grey;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+#footer .connect ul a:hover {
+  background: #76a876;
+  color: white;
+}
+
+#footer .connect ul li {
+  padding: 5;
+}
+
+#footer .col-2 {
+  margin-left: 40px;
+}
+
+#footer .col-2 .navigation h3 {
+  margin-bottom: 35px;
+  text-align: center;
+  margin-left: -30px;
+}
+
+#footer .col-2 .navigation ul {
+  cursor: pointer;
+  list-style: none;
+}
+
+#footer .col-2 .navigation ul li {
+  margin-bottom: 15px;
+}
+
+#footer .col-2 .services h3 {
+  margin: 15px 0 35px 15px;
+}
+
+#footer .col-2 .services ul {
+  cursor: pointer;
+  list-style: none;
+  margin-left: -38px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#footer .col-2 .services ul li {
+  margin: 15px;
+}
+
+#footer .col-3 h3 {
+  margin-bottom: 35px;
+  margin-left: 55px;
+}
+
+#footer .col-3 address {
+  margin-left: 55px;
+}
+
+#footer .col-3 ul {
+  cursor: pointer;
+  list-style: none;
+}
+
+#footer .col-3 ul li {
+  margin: 15px;
+}
+
+#footer .col-12 {
+  text-align: center;
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */

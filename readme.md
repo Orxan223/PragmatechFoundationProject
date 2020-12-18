@@ -56,3 +56,5 @@
 
  # Day 13
  - Contact section tamamlandi
+ # Day 14 
+ -Footer section tamamlandi
