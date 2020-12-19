@@ -1,3 +1,49 @@
+.nava {
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    .nav-bar {
+        margin:  0 auto;
+        display: flex;
+        justify-content: stretch;
+        width: 83%;
+        .nav-bar-left {
+            img{
+            margin-right: 165px;
+            width: 45px;
+            }
+        }
+        .nav-bar-right {
+            display: flex;
+            ul {   
+                width: 609px;
+                li {
+                    display: flex;
+                    padding: 3px, 0px, 3px, 3px;
+                    font-size: 16px;
+                    a {
+                        text-decoration: none!important;
+                        list-style: none!important;
+                        transition: all 0.5s ease;
+                        color: white;
+                        &:link {
+                            text-decoration: none;
+                            list-style: none!important;
+                        }
+                        &:hover {
+                            color: rgba(30, 199, 7, 0.952) !important;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+  
 #header{
     position: relative; 
     z-index: 0;
@@ -25,46 +71,8 @@
         li{
             list-style: none;
         }
-        .navbar {
-            width: 900px;
-            margin:0px 20px 0px 115px;
-            @extend .flex-full-center;
-            .navbar-left{
-                width: 1400px;
-                @extend .flex-full-center;
-                .span{
-                    height: 18px;
-                    color: white;
-                    width: 108px;
-                }
-                .inner-nav{
-                    margin:0px 70px 0px 140px;
-                }
-                .logo{
-                    display: inline-block;
-                    margin: 0px -43px;
-                    img {
-                        width: 110px;
-                     }
-                     
-                }
-                
-
-            
-               
-            }
-        }
-   }
+    }
 }
-
-
-
-
-
-
-
-
-
 
  .logo img {
     width: 150px;
@@ -104,7 +112,7 @@
     text-transform: capitalize;
     font-size: 55px;
     font-weight: 900px;
-    margin: 750px 0px 0px 0px;
+    margin:999px 0px 0px 0px;
     font-family: "Nunito", sans-serif
 }
 

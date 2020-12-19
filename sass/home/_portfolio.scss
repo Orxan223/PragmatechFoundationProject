@@ -10,13 +10,17 @@
         width:100%;
         flex-wrap: wrap;
         justify-content: start;
+        
         .col-4{
             width: calc( 100%/3 - 10px );
             box-sizing: border-box;
+            
         }
         
         .col-12{
             width: 0px;
+            
+
         }
     }
 
@@ -29,6 +33,8 @@
            margin: 30px 411px;
            text-align: center;
            font-size: 25px;
+           
+
             button{
                 background-color: transparent;
                 border: none;  
@@ -52,7 +58,7 @@
         z-index: 1px;
         height: 230px;
         overflow: hidden;
-      //  transition: all .3s ease;
+        transition: all 3s ease;
    
         
         p1{
@@ -89,7 +95,11 @@
                     filter:brightness(50%);
                     position: absolute;
                     z-index: 3;
+                    
                 }
             }                            
     }
 }
+
+
+

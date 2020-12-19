@@ -3,7 +3,7 @@ body {
   font-family: "nunito", sans-serif;
 }
 
-.flex-full-center, #header .nav .navbar, #header .nav .navbar .navbar-left {
+.flex-full-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,6 +442,70 @@ body {
   cursor: pointer;
 }
 
+.nava {
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nava .nav-bar {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  width: 83%;
+}
+
+.nava .nav-bar .nav-bar-left img {
+  margin-right: 165px;
+  width: 45px;
+}
+
+.nava .nav-bar .nav-bar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nava .nav-bar .nav-bar-right ul {
+  width: 609px;
+}
+
+.nava .nav-bar .nav-bar-right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3px, 0px, 3px, 3px;
+  font-size: 16px;
+}
+
+.nava .nav-bar .nav-bar-right ul li a {
+  text-decoration: none !important;
+  list-style: none !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.nava .nav-bar .nav-bar-right ul li a:link {
+  text-decoration: none;
+  list-style: none !important;
+}
+
+.nava .nav-bar .nav-bar-right ul li a:hover {
+  color: rgba(30, 199, 7, 0.952) !important;
+}
+
 #header {
   position: relative;
   z-index: 0;
@@ -472,34 +536,6 @@ body {
 
 #header .nav li {
   list-style: none;
-}
-
-#header .nav .navbar {
-  width: 900px;
-  margin: 0px 20px 0px 115px;
-}
-
-#header .nav .navbar .navbar-left {
-  width: 1400px;
-}
-
-#header .nav .navbar .navbar-left .span {
-  height: 18px;
-  color: white;
-  width: 108px;
-}
-
-#header .nav .navbar .navbar-left .inner-nav {
-  margin: 0px 70px 0px 140px;
-}
-
-#header .nav .navbar .navbar-left .logo {
-  display: inline-block;
-  margin: 0px -43px;
-}
-
-#header .nav .navbar .navbar-left .logo img {
-  width: 110px;
 }
 
 .logo img {
@@ -548,7 +584,7 @@ body {
   text-transform: capitalize;
   font-size: 55px;
   font-weight: 900px;
-  margin: 750px 0px 0px 0px;
+  margin: 999px 0px 0px 0px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -631,6 +667,8 @@ body {
   z-index: 1px;
   height: 230px;
   overflow: hidden;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 
 #portfolio .portfolio-item p1 {

@@ -65,3 +65,6 @@
 
  # Day 16
  - Js ile bezi dinamik deyisiklikler
+
+ # Day 17
+ - Portfolio filter 
