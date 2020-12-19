@@ -45,16 +45,23 @@
  - Portfolio-da seflərimi düzəltdim
 
  # Day 10
- - Services hissəsi yazıldı
+ -Portfolio gallery  tamamlanmasi
 
  # Day 11
- - Resume section-nun html strukturunun qurulmasi
+ - Services hissəsi yazıldı
 
  # Day 12
+ - Resume section-nun html strukturunun qurulmasi
+
+ # Day 13
  - Resume section tamamlanmasi
  - Blog section tamamlanmasi
 
- # Day 13
+ # Day 14
  - Contact section tamamlandi
- # Day 14 
+
+ # Day 15
  -Footer section tamamlandi
+
+ # Day 16
+ - Js ile bezi dinamik deyisiklikler

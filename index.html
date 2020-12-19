@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 
 <body style="margin:0px;">
@@ -46,6 +48,9 @@
     </header>
 
     <!-- endof header -->
+
+
+    <!-- about  -->
     <section id="about" class="flex-full-center">
         <div class="baba">
             <div class="ata1"><img src="img/image_bg_2.jpg"></div>
@@ -99,146 +104,149 @@
             </div>
         </div>
     </section>
+    <!-- endof header -->
 
+
+    <!-- portfolio  -->
     <section id="portfolio">
-        <class="cointainer-full">
-            <div class="container">
+        <div class="container">
                 <div class="row">
                     <div class="col-12"></div>
                     <div class="portfolio-header">
                         <h2>My Portfolio</h2>
                         <div class="portfolio-filter">
-                            <button type="button" class="active" data-filter="all">All</button>
-                            <button type="button" class="active" data-filter="packaging"> Packaging</button>
-                            <button type="button" class="active" data-filter="mockup">Mockup</button>
-                            <button type="button" class="active" data-filter="typography">Typography</button>
-                            <button type="button" class="active" data-filter="photography">Photography</button>
+                            <button type="button" id="all">All</button>
+                            <button type="button" id="packaging"> Packaging</button>
+                            <button type="button" id="mockup">Mockup</button>
+                            <button type="button" id="typography">Typography</button>
+                            <button type="button" id="photography">Photography</button>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Mockup">
-                            <a href="img/img_bg_3 - Copy.jpg"><img src="img/img_bg_3.jpg"></a>
-                            <p1>
-                                Card Vol-3
-                            </p1>
-                            <p2>
-                                Mockup
-                            </p2>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item  " data-category="Typography">
-                            <a href="img/img_bg_6 - Copy.jpg"><img src="img/img_bg_6.jpg"></a>
-
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Mockup">
-                            <a href="img/img_bg_5 - Copy.jpg"><img src="img/img_bg_5.jpg"></a>
-
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
+            <div class="row photo">
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="1">
+                        <a href="img/img_bg_3 - Copy.jpg" data-portfolio="photo">
+                            <img src="img/img_bg_3.jpg"></a>
+                        <p1>
+                            Card Vol-3
+                        </p1>
+                        <p2>
+                            Mockup
+                        </p2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Packaging">
-                            <a href="img/img_bg_6 - Copy.jpg"><img src="img/img_bg_6.jpg"></a>
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Mockup">
-                            <a href="img/img_bg_7 - Copy.jpg"><img src="img/img_bg_7.jpg"></a>
+                <div class="col-4 ">
+                    <div class="portfolio-item " id="2">
+                        <a href="img/img_bg_6 - Copy.jpg">
+                            <img src="img/img_bg_6.jpg"></a>
 
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Typography">
-                            <a href="img/img_bg_5 - Copy.jpg"><img src="img/img_bg_5.jpg"></a>
-
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 ">
-                        <div class="portfolio-item  " data-category="Typography">
-                            <a href="img/img_bg_3 - Copy.jpg"><img src="img/img_bg_3.jpg"></a>
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="3">
+                        <a href="img/img_bg_5 - Copy.jpg">
+                            <img src="img/img_bg_5.jpg"></a>
 
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
-
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Photography">
-                            <a href="img/img_bg_3 - Copy.jpg"><img src="img/img_bg_3.jpg "></a>
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="portfolio-item " data-category="Photography">
-                            <a href="img/img_bg_3 - Copy.jpg"><img src="img/img_bg_3.jpg"></a>
-                            <p1>
-                                Lorem Ipsum
-                            </p1>
-                            <p2>
-                                Lorem Ipsum
-                            </p2>
-                        </div>
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
                     </div>
                 </div>
-            </div>
+
+
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="4">
+                        <a href="img/img_bg_6 - Copy.jpg">
+                            <img src="img/img_bg_6.jpg"></a>
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="1">
+                        <a href="img/img_bg_7 - Copy.jpg">
+                            <img src="img/img_bg_7.jpg"></a>
+
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="3">
+                        <a href="img/img_bg_5 - Copy.jpg">
+                            <img src="img/img_bg_5.jpg"></a>
+
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+                </div>
+
+
+                <div class="col-4 ">
+                    <div class="portfolio-item " id="3">
+                        <a href="img/img_bg_3 - Copy.jpg">
+                            <img src="img/img_bg_3.jpg"></a>
+
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+
+                </div>
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="1">
+                        <a href="img/img_bg_3 - Copy.jpg">
+                            <img src="img/img_bg_3.jpg "></a>
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="portfolio-item" id="4">
+                        <a href="img/img_bg_3 - Copy.jpg">
+                            <img src="img/img_bg_3.jpg"></a>
+                        <p1>
+                            Lorem Ipsum
+                        </p1>
+                        <p2>
+                            Lorem Ipsum
+                        </p2>
+                    </div>
+                </div>           
+           </div>
+        </div>
     </section>
-    <div class="lightbox">
-        <div class="lightbox-content">
-            <div class="lightbox-close">&times;</div>
-            <img src="img/image_bg_5 - Copy.jpg" class="lighbox=img_bg_5">
-        </div>
-        <div class="lightbox-controls">
-            <div class="prev-item"><i class="fas fa-arrow-left"></i></div>
-            <div class="next-item"><i class="fas fa-arrow-right"></i></div>
-        </div>
-    </div>
+    <!-- endof header -->
+
     <section id="services">
         <div class="container">
             <div class="row">
@@ -277,6 +285,8 @@
             </div>
         </div>
     </section>
+    <!--  resume  -->
+
     <section id="resume">
         <div class="container">
             <div class="row">
@@ -313,17 +323,17 @@
                                     <span>San Francisco</span>
                                 </div>
                             </div>
-                        
+
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                                             <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
-                                    <span>  November 2019 - Present</span>
+                                        </svg></span>
+                                    <span> November 2019 - Present</span>
                                 </div>
                             </div>
                         </div>
@@ -349,20 +359,21 @@
                                     <span>San Francisco</span>
                                 </div>
                             </div>
-                        
+
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                                             <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
-                                    <span>  November 2019 - Present</span>
+                                        </svg></span>
+                                    <span> November 2019 - Present</span>
                                 </div>
                             </div>
-                        </div><div class="ata3">
+                        </div>
+                        <div class="ata3">
                             <h3>Senior Front End Developer</h3>
                             <div class="ogul-1">
                                 <div class="ogul1-item-sol">
@@ -384,20 +395,21 @@
                                     <span>San Francisco</span>
                                 </div>
                             </div>
-                        
+
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                                             <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
-                                    <span>  November 2019 - Present</span>
+                                        </svg></span>
+                                    <span> November 2019 - Present</span>
                                 </div>
                             </div>
-                        </div><div class="ata4">
+                        </div>
+                        <div class="ata4">
                             <h3>Senior Front End Developer</h3>
                             <div class="ogul-1">
                                 <div class="ogul1-item-sol">
@@ -419,17 +431,17 @@
                                     <span>San Francisco</span>
                                 </div>
                             </div>
-                        
+
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                                             <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
-                                    <span>  November 2019 - Present</span>
+                                        </svg></span>
+                                    <span> November 2019 - Present</span>
                                 </div>
                             </div>
                         </div>
@@ -447,20 +459,21 @@
                                         </svg></span>
                                     <span>Harvard University</span>
                                 </div>
-                            </div>                       
+                            </div>
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                                             <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
+                                        </svg></span>
                                     <span> Columbia University</span>
                                 </div>
                             </div>
-                        </div><div class="ata6">
+                        </div>
+                        <div class="ata6">
                             <h4>Batchelor in Software Engineering</h4>
                             <div class="ogul-1">
                                 <div class="ogul1-item-sol">
@@ -474,24 +487,28 @@
                                     <span>Columbia University</span>
                                 </div>
                             </div>
-                        
+
                             <div class="ogul-2">
                                 <div class="ogul2-item-sag">
-                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
-                                        <path
+                                            <path
                                                 d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                                    </svg></span>
+                                        </svg></span>
                                     <span> March 2015 - November 2019 </span>
                                 </div>
                             </div>
-                        </div>                       
-                    </div>
+                        </div>
                 </div>
             </div>
+        </div>
     </section>
+    <!--  resume-end -->
+
+
+    <!--  Blog -->
     <section id="Blog">
         <div class="container">
             <div class="row1">
@@ -536,6 +553,11 @@
             </div>
         </div>
     </section>
+    <!--  resume-end -->
+
+
+
+    <!--  Contact -->
     <section id="Contact">
         <div class="container">
             <div class="row-1">
@@ -547,17 +569,17 @@
                         <div class="col-6-bal">
                             <div class="from1-group">
                                 <label class="" for="fname">First name</label>
-                                <input type="text" class="form-control1 " id="fname"> 
+                                <input type="text" class="form-control1 " id="fname">
                             </div>
                         </div>
                         <div class="col-6-boy">
-                            <div class="from2-group">   
+                            <div class="from2-group">
                                 <label class="" for="lname">Last name</label>
                                 <input type="text" class="form-control2" id="lname">
                             </div>
                         </div>
                         <div class="from3-group"><label class="" for="email">Email address</label>
-                        <input type="email" class="form-control3" id="email">
+                            <input type="email" class="form-control3" id="email">
                         </div>
                         <div class="from4-group">
                             <label class="" for="message">Message</label>
@@ -565,54 +587,59 @@
                         </div>
                         <button class="btn btn-border-radius-3x btn-border-green">Send Message</button>
                     </div>
-                <div class="col-4">
-                    <h2>Contact Info</h2>
-                    <div class="text-adress">
-                        <span><i class="fas fa-map-marker-alt"></i></span>
-                        <span>43 Raymouth Rd. Baltemoer, London 3910</span>
+                    <div class="col-4">
+                        <h2>Contact Info</h2>
+                        <div class="text-adress">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <span>43 Raymouth Rd. Baltemoer, London 3910</span>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <a>
+                                    <span><i class="fas fa-phone-alt"></i> </span>
+                                    <span>+1(123)-456-7890</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span><i class="fas fa-phone-alt"></i></span>
+                                    <span>055-000-00-00</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span><i class="fas fa-envelope-square"></i></span>
+                                    <span>filankes@mail.ru</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span><i class="fas fa-envelope-square"></i></span>
+                                    <span>https://Colorlib/</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="list" >
-                        <li>
-                            <a>
-                                <span><i class="fas fa-phone-alt"></i> </span>
-                                <span>+1(123)-456-7890</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span><i class="fas fa-phone-alt"></i></span>
-                                <span>055-000-00-00</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span><i class="fas fa-envelope-square"></i></span>
-                                <span>filankes@mail.ru</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span><i class="fas fa-envelope-square"></i></span>
-                                <span>https://Colorlib/</span>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </div>
 
     </section>
+    <!--  Contact-end -->
+
+
+    <!--  footer -->
     <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-4">
                     <div class="about-orbit">
                         <h3>About Orbit.</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
                     </div>
                     <div class="connect">
                         <h3>Connect</h3>
-                        <ul >
+                        <ul>
                             <li>
                                 <a href="#header"><i class="fab fa-instagram-square"></i></a>
                             </li>
@@ -671,13 +698,14 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p>Copyright ©2020 All rights reserved | This template is made with  by Colorlib</p>
+                    <p>Copyright ©2020 All rights reserved | This template is made with by Colorlib</p>
                 </div>
             </div>
         </div>
     </footer>
+    <!--  footer-end -->
 </body>
-<script src="javascript/portfolio.js"></script>
+
+<script src="javascript/javaScr.js"></script>
 
 </html>
-
