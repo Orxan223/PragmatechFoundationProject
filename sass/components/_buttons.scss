@@ -30,6 +30,7 @@
 }
 
 .btn-border-green{
+    outline: none;
     border: 1px solid green;
     color: green;
     &:hover{
@@ -40,6 +41,7 @@
 }
 
 .btn-border-gray{
+    outline: none;
     border: 1px solid gray;
     color: gray;
     &:hover{

@@ -17,6 +17,7 @@ sr.reveal('.btn', {
 
 });
 
+//-----------------------
 
 
 
@@ -36,7 +37,7 @@ btnAll.addEventListener('click', function () {
             items[i].parentElement.style.display = "block"
         }
     }
-})
+});
 
 btnPackaging.addEventListener('click', function () {
     for (let i = 0; i < items.length; i++) {
@@ -49,7 +50,7 @@ btnPackaging.addEventListener('click', function () {
         }
 
     }
-})
+});
 
 btnMockup.addEventListener('click', function () {
     for (let i = 0; i < items.length; i++) {
@@ -61,7 +62,7 @@ btnMockup.addEventListener('click', function () {
         }
 
     }
-})
+});
 
 btnTypography.addEventListener('click', function () {
     for (let i = 0; i < items.length; i++) {
@@ -73,7 +74,7 @@ btnTypography.addEventListener('click', function () {
         }
 
     }
-})
+});
 
 btnPhotography.addEventListener('click', function () {
     for (let i = 0; i < items.length; i++) {
@@ -96,7 +97,7 @@ let logo = document.getElementById("darklogo");
 let header = document.getElementById("header");
 
 
-// -----------------------------------------Header nav----------------------------------------
+// -----------------------------------------Header ----------------------------------------
 window.onscroll = function () {
     scrollFunction();
 };
@@ -121,4 +122,4 @@ function scrollFunction() {
             i.style.color = "white";
         })
     }
-};
+}
