@@ -525,7 +525,7 @@
                 <div class="col-10">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="#" class="Blog">
                                 <div>
                                     <span class="data1">JUN 28, 2020</span>
                                     <h3>Front-end Developer Demands today</h3>
@@ -572,28 +572,34 @@
             </div>
             <div class="row-2">
                 <div class="col-8">
-                    <div class="row-3">
-                        <div class="col-6-bal">
-                            <div class="from1-group">
-                                <label class="" for="fname">First name</label>
-                                <input type="text" class="form-control1 " id="fname">
+                    <form action="#" class="row-full form">
+                        <div class="container-full">
+                            <div class="row-full">
+                                <div class="col-6">
+                                    <input firstname="name" id="firstname" type="text" class="form-control0" placeholder="First Name"
+                                        required>
+                                </div>
+                                <div class="col-6">
+                                    <input lastname="lastname" id="lastname" type="text" class="form-control01" placeholder="Last name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="row-full">
+                                <div class="col-12">
+                                    <input type="email" class="form-control02" id="email" placeholder="Email address" required>
+                                </div>
+                            </div>
+                            <div class="row-full">
+                                <div class="col-12">
+                                    <textarea style="height: 140px;" name="comments" id="Message" rows="4" class="form-control03"
+                                        placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row-full-send">
+                                <button type="submit" class="btn btn-border-green ">SEND MESSANGE</button>
                             </div>
                         </div>
-                        <div class="col-6-boy">
-                            <div class="from2-group">
-                                <label class="" for="lname">Last name</label>
-                                <input type="text" class="form-control2" id="lname">
-                            </div>
-                        </div>
-                        <div class="from3-group"><label class="" for="email">Email address</label>
-                            <input type="email" class="form-control3" id="email">
-                        </div>
-                        <div class="from4-group">
-                            <label class="" for="message">Message</label>
-                            <textarea name="" class="form-control4" id="message" cols="30" rows="5"></textarea>
-                        </div>
-                        <button class="btn btn-border-radius-3x btn-border-green">Send Message</button>
-                    </div>
+                    </form>
                     <div class="col-4">
                         <h2>Contact Info</h2>
                         <div class="text-adress">

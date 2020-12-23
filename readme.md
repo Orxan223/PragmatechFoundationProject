@@ -68,3 +68,8 @@
 
  # Day 17
  - Portfolio filter 
+
+ # Day 18
+ - Menüdən keçid edendə sürüşmə yumşadıldı
+ - Contact hissesinde simetriya 
+ 

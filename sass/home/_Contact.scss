@@ -6,61 +6,70 @@
         text-align: center;
         margin-bottom: 80px;
     }
-    .row-2{
-        .col-8{
-            height: 550px;
-        }
+    .row-2{    
+        .col-8{      
+            margin-bottom: -160px;
+            .row-full{
+                margin-bottom: 30px;
+        
+                .col-6{
+                    .form-control0{
+                        font-size: 16px;
+                        border: none;
+                        border-bottom: 1px solid #43434d;
+                        width: 300px;
+                        outline: none;
+                    }
+                    .form-control01{
+                        font-size: 16px;
+                    position: relative;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #43434d;
+                    left: 350px;
+                    top: -25px;
+                    width: 300px;
+                    }
+                }
+                .col-12{  
+
+                    .form-control02{
+                        font-size: 16px;
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid #43434d;
+                        width: 650px;
+                        margin-bottom: 26px;
+                    }
+                }
+                .col-12{  
+
+                    .form-control03{
+                        font-size: 20px;
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid #43434d;
+                        width: 650px;
+                        height: 130px;
+                    }
+                }
+                .row-full-send{
+                    .btn{
+                     border-radius: 30px;
+                    }
+                
+                }
+            }  
+        }    
+
+
     }
     
-    .row-3{ 
-        .col-6-bal{
-            .form-control1{
-                font-size: 20px;
-                border: none;
-                border-bottom: 1px solid #43434d;
-            }
-        }
-        .col-6-boy{
-            position: relative;
-            top: -34px;
-            left: 315px;
-            .from2-group{  
-                margin: 0px 0 0 50px; 
-                .form-control2{
-                    font-size: 20px;
-                    border: none;
-                    border-bottom: 1px solid #43434d;
-                }
-            }
-        }
-        .from3-group{
-            margin: 0 0 0 -20px;
-            
-                .form-control3{
-                    font-size: 50px;
-                    border: none;
-                    border-bottom: 1px solid #43434d;
-                }
-            
-        }
-        .from4-group{
-            margin: 31px 0 0 15px;
-            .form-control4{
-                font-size: 36px;
-                border: none;
-                border-bottom: 1px solid #43434d;
-            }
-        }  
-        .btn{
-            margin: 30px 0 0 85px;
-            outline: none;
-
-        }
-    }
+   
         .col-4{
             position: relative;
             left: 900px;
-            top: -466px;
+            top: -390px;
             h2{
                 margin: 25px;
             }

@@ -1140,7 +1140,7 @@ body {
 #blog li {
   display: block;
   padding-bottom: 30px;
-  border-bottom: 1px solid #6b6767;
+  border-bottom: 1px solid #f1e7e7;
 }
 
 #blog li a {
@@ -1206,60 +1206,58 @@ body {
 }
 
 #Contact .row-2 .col-8 {
-  height: 550px;
+  margin-bottom: -160px;
 }
 
-#Contact .row-3 .col-6-bal .form-control1 {
-  font-size: 20px;
+#Contact .row-2 .col-8 .row-full {
+  margin-bottom: 30px;
+}
+
+#Contact .row-2 .col-8 .row-full .col-6 .form-control0 {
+  font-size: 16px;
   border: none;
   border-bottom: 1px solid #43434d;
-}
-
-#Contact .row-3 .col-6-boy {
-  position: relative;
-  top: -34px;
-  left: 315px;
-}
-
-#Contact .row-3 .col-6-boy .from2-group {
-  margin: 0px 0 0 50px;
-}
-
-#Contact .row-3 .col-6-boy .from2-group .form-control2 {
-  font-size: 20px;
-  border: none;
-  border-bottom: 1px solid #43434d;
-}
-
-#Contact .row-3 .from3-group {
-  margin: 0 0 0 -20px;
-}
-
-#Contact .row-3 .from3-group .form-control3 {
-  font-size: 50px;
-  border: none;
-  border-bottom: 1px solid #43434d;
-}
-
-#Contact .row-3 .from4-group {
-  margin: 31px 0 0 15px;
-}
-
-#Contact .row-3 .from4-group .form-control4 {
-  font-size: 36px;
-  border: none;
-  border-bottom: 1px solid #43434d;
-}
-
-#Contact .row-3 .btn {
-  margin: 30px 0 0 85px;
+  width: 300px;
   outline: none;
+}
+
+#Contact .row-2 .col-8 .row-full .col-6 .form-control01 {
+  font-size: 16px;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #43434d;
+  left: 350px;
+  top: -25px;
+  width: 300px;
+}
+
+#Contact .row-2 .col-8 .row-full .col-12 .form-control02 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #43434d;
+  width: 650px;
+  margin-bottom: 26px;
+}
+
+#Contact .row-2 .col-8 .row-full .col-12 .form-control03 {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #43434d;
+  width: 650px;
+  height: 130px;
+}
+
+#Contact .row-2 .col-8 .row-full .row-full-send .btn {
+  border-radius: 30px;
 }
 
 #Contact .col-4 {
   position: relative;
   left: 900px;
-  top: -466px;
+  top: -390px;
 }
 
 #Contact .col-4 h2 {
@@ -1369,5 +1367,9 @@ body {
 #footer .col-12 {
   text-align: center;
   margin-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */
