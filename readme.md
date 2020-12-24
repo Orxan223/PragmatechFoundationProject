@@ -72,4 +72,6 @@
  # Day 18
  - Menüdən keçid edendə sürüşmə yumşadıldı
  - Contact hissesinde simetriya 
- 
+  
+  # Day 19
+  - About Blog kecid etmek 
