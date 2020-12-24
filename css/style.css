@@ -1194,11 +1194,11 @@ body {
   margin: 18px 0px 0 235px;
 }
 
-#blog .TransitionBlog {
-  margin-left: 385px;
+#blog .getBlog {
+  margin-left: 755px;
 }
 
-#blog .TransitionBlog a {
+#blog .getBlog a {
   outline: none;
   list-style: none;
   text-decoration: none;

@@ -1,18 +1,10 @@
-#blog_body {
-  width: 100%;
-}
-
 #blog_body .container h2 {
   text-align: center;
 }
 
-#blog_header {
-  height: 110px;
-  background: url(/img/backround.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+#header .nav-bar .blog_nav a {
+  position: relative;
+  top: 10px;
+  left: 700px;
 }
 /*# sourceMappingURL=blog_style.css.map */
