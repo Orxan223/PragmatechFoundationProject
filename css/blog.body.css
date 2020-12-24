@@ -1,0 +1,11 @@
+#blog_body {
+  margin-top: 60px;
+}
+
+#blog_body .container {
+  margin: 40px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1160px;
+}
+/*# sourceMappingURL=blog.body.css.map */

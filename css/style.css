@@ -1140,7 +1140,7 @@ body {
 #blog li {
   display: block;
   padding-bottom: 30px;
-  border-bottom: 1px solid #f1e7e7;
+  border-bottom: 1px solid #6b6969;
 }
 
 #blog li a {
@@ -1192,6 +1192,17 @@ body {
   color: #696262;
   text-transform: uppercase;
   margin: 18px 0px 0 235px;
+}
+
+#blog .TransitionBlog {
+  margin-left: 385px;
+}
+
+#blog .TransitionBlog a {
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  color: green;
 }
 
 #Contact {

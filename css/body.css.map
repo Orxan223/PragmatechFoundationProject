@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/blog_section/BLOG.scss"
+        "../sass/blog_section/body.scss"
     ],
     "names": [],
-    "file": "BLOG.css"
+    "file": "body.css"
 }
