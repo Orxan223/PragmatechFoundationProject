@@ -75,3 +75,4 @@
   
   # Day 19
   - About Blog kecid etmek 
+ 

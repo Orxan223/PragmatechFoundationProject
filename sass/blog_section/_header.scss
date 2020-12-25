@@ -1,11 +1,53 @@
+.nava {
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    .nav-bar {
+        margin:  0 auto;
+        display: flex;
+        justify-content: stretch;
+        width: 83%;
+        .nav-bar-left {
+            img{
+            margin-right: 165px;
+            width: 45px;
+            }
+        }
+        .blog_right {
+            display: flex;
+            a {
+                text-decoration: none!important;
+                list-style: none!important;
+                transition: all 0.5s ease;
+                color: white;
+                position: relative;
+                top: 14px;
+                left: 810;
+                &:link {
+                    text-decoration: none;
+                    list-style: none!important;
+                }
+                &:hover {
+                    color: rgba(34, 226, 8, 0.952) !important;
+                }
+            }         
+        }
+    }
+}
 #header{
     .nav-bar{
         .blog_nav{
             a{
                 position: relative;
                 top: 10px;
-                left: 700px;
+                left: 810px;
+                text-decoration: none;
+                color: rgb(115, 255, 0)
             }
         }
     }
+    
 }
