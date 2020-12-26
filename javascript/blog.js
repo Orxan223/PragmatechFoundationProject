@@ -1,3 +1,9 @@
+
+let nav = document.querySelector(".nava");
+let blanks = document.querySelectorAll(".blank");
+let logo = document.getElementById("darklogo");
+let header = document.getElementById("header");
+
 window.onscroll = function () {
     scrollFunction();
 };

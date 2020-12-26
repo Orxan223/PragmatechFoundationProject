@@ -75,4 +75,7 @@
   
   # Day 19
   - About Blog kecid etmek 
+
+  # Day 20 
+  - Blog hissesinin tamamlandi
  
