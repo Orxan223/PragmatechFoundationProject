@@ -1,4 +1,3 @@
-
 let nav = document.querySelector(".nava");
 let blanks = document.querySelectorAll(".blank");
 let logo = document.getElementById("darklogo");

@@ -78,4 +78,7 @@
 
   # Day 20 
   - Blog hissesinin tamamlandi
+  - Blog hissesinde js kodlari yazildi
+
+
  
