@@ -1,10 +1,15 @@
 #blog_body .container h2 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 #blog_body .container .title img {
   width: 100%;
+}
+
+.nava {
+  padding-top: 20px;
+  margin-top: -140px;
 }
 
 .nava .blog_right a {
@@ -33,5 +38,9 @@
   left: 810px;
   text-decoration: none;
   color: #73ff00;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=blog_style.css.map */

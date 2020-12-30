@@ -1,2 +1,7 @@
 @import 'blog_section/blog_body';
 @import 'blog_section/header';
+
+html {
+    scroll-behavior: smooth;
+}
+
