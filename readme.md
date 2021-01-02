@@ -80,5 +80,4 @@
   - Blog hissesinin tamamlandi
   - Blog hissesinde js kodlari yazildi
 
-
  
