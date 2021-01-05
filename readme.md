@@ -1,5 +1,5 @@
 # Lahiyə haqqında ümumi məlumat:
-- Hansı işleri bacardığım,  əl işlərim, müştərilərin hansı xidmətlər üçün müraciyyət edə biler, memnun müşterilerin blog yazılarının olacagı bir sayt olacaq.
+- Hansı işleri bacardığım,  əl işlərim, müştərilərin hansı xidmətlər üçün müraciyyət edə biler ve s. Kimi bir sayt olacaq.
 - Templete : https://preview.colorlib.com/theme/orbit/index.html
 
 
