@@ -79,5 +79,7 @@
   # Day 20 
   - Blog hissesinin tamamlandi
   - Blog hissesinde js kodlari yazildi
-
+ 
+ # Day 21
+ - Sql baza strukturu 
  
