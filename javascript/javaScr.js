@@ -123,3 +123,11 @@ function scrollFunction() {
         })
     }
 }
+
+const form = document.forms[0];
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    const { firstname, lastname, email, comments } = this.elements;
+    console.log(firstname.value, lastname.value, email.value, comments.value);
+});
