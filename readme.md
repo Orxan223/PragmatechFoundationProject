@@ -82,4 +82,7 @@
  
  # Day 21
  - Sql baza strukturu 
+
+ # DAy 22
+ - Sql html yazildi
  
