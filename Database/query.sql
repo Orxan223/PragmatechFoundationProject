@@ -29,21 +29,20 @@ VALUES ("lorem ipsum","img/sekil.png","nese","nesesdf",412355,True)
 SELECT * from Blog;
 
 ------portfolio
+create TABLE Portfolio(
+    id INTEGER PRIMARY KEY,
+    images VARCHAR(30) Not NULL,
+    title VARCHAR(15) NOT NULL,
+)
 
 create TABLE Catalogs(
     id INTEGER PRIMARY KEY,
     name VARCHAR (100),
     title VARCHAR (100),
     portfolio_id INTEGER,
-    CONSTRAINT Portfolio_Catalog
+    CONSTRAINT Portfolio_Catalogs
     FOREIGN KEY (portfolio_id)
-    REFERENCES Portfolio (id)
-)
-
-create TABLE Portfolio(
-    id INTEGER primary KEY,
-    images VARCHAR(30) Not NULL,
-    title VARCHAR(15) NOT NULL,
+    REFERENCES Portfolio(id)
 )
 
 INSERT INTO Catalogs (name,title,portfolio_id)
@@ -53,6 +52,7 @@ select * from Catalogs
 
 INSERT into Portfolio(images, title)
 VALUES ("img/sekil.png","Lorem ipsum")
+
 select * from Portfolio
 
 SELECT * FROM Portfolio;
@@ -80,11 +80,13 @@ VALUES("dew",70,1)
 
 select * from Skills
 
-insert into About(texts,Cvurl)
+insert into About(texts,CVurl)
 VALUES('nese yaz','files/nese.pdf')
 
 select * from About;
 select * from Skills;
+
+---------form
 
 CREATE TABLE form(
      id INTEGER PRIMARY key,
@@ -93,12 +95,12 @@ CREATE TABLE form(
      messages VARCHAR(50) not null
 )
 
-insert into from(fullname,email,messages)
+insert into form(fullname,email,messages)
 VALUES("salmanov orxan",'orxan@gmail.com','nesesqws')
 
 select * from services
 
-
+--------contact
 CREATE TABLE contact(
     id INTEGER PRIMARY key,
     messages VARCHAR(50) not null,
@@ -110,7 +112,7 @@ VALUES("nese",'nese','nesesqws')
 
 select * from contact
 
-
+----services
 CREATE TABLE services(
     id INTEGER PRIMARY key,
     icon VARCHAR (10) not null,
