@@ -37,7 +37,7 @@ create TABLE Portfolio(
 
 create TABLE Catalogs(
     id INTEGER PRIMARY KEY,
-    name VARCHAR (100),
+    names VARCHAR (100),
     title VARCHAR (100),
     portfolio_id INTEGER,
     CONSTRAINT Portfolio_Catalogs
@@ -45,12 +45,12 @@ create TABLE Catalogs(
     REFERENCES Portfolio(id)
 )
 
-INSERT INTO Catalogs (name,title,portfolio_id)
+INSERT INTO Catalogs (names,title,portfolio_id)
 VALUES('photograpy','Lorem',1)
 
 select * from Catalogs
 
-INSERT into Portfolio(images, title)
+INSERT into Portfolio (images, title)
 VALUES ("img/sekil.png","Lorem ipsum")
 
 select * from Portfolio
